@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <Container>
+    <Container >
       <div>Tobias Jose Hermann 2022</div>
     </Container>
   )

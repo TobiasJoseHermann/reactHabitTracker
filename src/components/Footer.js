@@ -7,7 +7,7 @@ export default function Footer() {
   const navigate = useNavigate()
 
   return (
-    <Container sx={{ display: 'flex', justifyContent: 'center' }}>
+    <Container sx={{ display: 'flex', justifyContent: 'center', mt: 3 }}>
       <Link onClick={() => navigate('/about')} sx={{ cursor: 'pointer' }}>About</Link>
     </Container>
   )

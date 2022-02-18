@@ -42,7 +42,7 @@ export default function App() {
             <CssBaseline />
             <Routes>
               <Route path="/" element={<PrivateRoute><Habits /></PrivateRoute>}/>
-              <Route path="/reactHabitTracker" element={<Login />}/>
+              <Route path="/reactHabitTracker" element={<PrivateRoute><Habits /></PrivateRoute>}/>
               <Route path="/signUp" element={<SingUp />}/>
               <Route path="/login" element={<Login />}/>
               <Route path="/resetPassword" element={<ResetPassword />}/>
